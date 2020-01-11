@@ -192,6 +192,8 @@ class HomePageState extends State<HomePage>
                   SvgPicture.asset(
                     "assets/images/from_marker.svg",
                     package: "trufi_core",
+                    color: Theme.of(context).accentColor,
+                    colorBlendMode: BlendMode.screen,
                   ),
                   _setFromPlace,
                 ),
@@ -212,6 +214,8 @@ class HomePageState extends State<HomePage>
                   SvgPicture.asset(
                     "assets/images/to_marker.svg",
                     package: "trufi_core",
+                    color: Theme.of(context).accentColor,
+                    colorBlendMode: BlendMode.screen,
                   ),
                   _setToPlace,
                 ),
